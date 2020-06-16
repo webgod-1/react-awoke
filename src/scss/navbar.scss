@@ -1,0 +1,108 @@
+#navbar, #dashboard-nav {
+    h1 { 
+        font-size: 24px;
+        align-self: center;
+        margin: 0 50px 0 0;
+    }
+
+    >div:first-child {
+        border: none;
+        max-width: $maxwidth;
+        margin: 0 auto;
+        padding: 10px 10px 5px;
+    }
+
+    .active.item{
+        background: none;
+        color: $navy;
+        border-bottom: 3px solid;
+        border-radius: 0;
+    }
+
+    .item  {
+      font-family: 'Poppins', sans-serif;
+
+        &:hover {
+            color: $navy;
+            background: none;
+        }
+    }
+
+    .right.menu .item{
+        padding-left: 0;
+        padding-right: 0;
+
+        &.login{
+            margin: 0 0 0 30px;
+            color: $orange;
+        }
+
+        .button {
+            text-transform: uppercase;
+            padding: 15px 45px 15px 15px;
+            font-size: 14px;
+            width: 100%;
+            position: relative;
+
+            &::after{
+                content: "";
+                width: 16px;
+                height: 16px;
+                position: absolute;
+                background-image: url("../images/nav-btn-arrow.png");
+                background-size: cover;
+                background-position: center;
+                right: 15px;
+                top: 48%;
+                transform: translateY(-50%);
+            }
+        }
+    }
+  
+    &.sticky {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        z-index: 9999;
+    }
+
+    .mobile-btn {
+        display: none;
+    }
+
+    .ui.segment.pushable {
+        display: none;
+    }
+
+    @media screen and (max-width: 990px) {
+        background-color: white;
+        
+        #primary-menu .item:not(h1) {
+            display: none;
+        }
+
+        #primary-menu {
+            justify-content: space-between;
+        }
+
+        .menu .item.mobile-btn {
+            display: inline-block!important;
+            i { font-size: 20px;}
+        }
+        
+        .sidebar.menu {
+            top: 57px;
+            width: 100%;
+
+            .item {
+                padding: 25px 20px;
+
+                &:hover, &.active {
+                    background-color: $navy;
+                    color: white;
+                    border: none;
+                }
+            }
+        }
+    }
+}

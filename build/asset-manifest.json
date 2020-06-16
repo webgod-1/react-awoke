@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/altdatana-react/static/css/main.7ecb3879.chunk.css",
+    "main.js": "/altdatana-react/static/js/main.c0eca7b2.chunk.js",
+    "main.js.map": "/altdatana-react/static/js/main.c0eca7b2.chunk.js.map",
+    "runtime-main.js": "/altdatana-react/static/js/runtime-main.441cc14c.js",
+    "runtime-main.js.map": "/altdatana-react/static/js/runtime-main.441cc14c.js.map",
+    "static/js/2.3771cf62.chunk.js": "/altdatana-react/static/js/2.3771cf62.chunk.js",
+    "static/js/2.3771cf62.chunk.js.map": "/altdatana-react/static/js/2.3771cf62.chunk.js.map",
+    "index.html": "/altdatana-react/index.html",
+    "precache-manifest.b41247a546b00bf17f8b6a7b22dd7804.js": "/altdatana-react/precache-manifest.b41247a546b00bf17f8b6a7b22dd7804.js",
+    "service-worker.js": "/altdatana-react/service-worker.js",
+    "static/css/main.7ecb3879.chunk.css.map": "/altdatana-react/static/css/main.7ecb3879.chunk.css.map",
+    "static/js/2.3771cf62.chunk.js.LICENSE.txt": "/altdatana-react/static/js/2.3771cf62.chunk.js.LICENSE.txt",
+    "static/media/about-blob.png": "/altdatana-react/static/media/about-blob.b6d9bfd6.png",
+    "static/media/how-blob.png": "/altdatana-react/static/media/how-blob.b5453d07.png",
+    "static/media/product-circle.png": "/altdatana-react/static/media/product-circle.8bc93eb4.png",
+    "static/media/product-leftg.png": "/altdatana-react/static/media/product-leftg.442b3038.png",
+    "static/media/product-right.png": "/altdatana-react/static/media/product-right.f97f8404.png",
+    "static/media/product-rightg.png": "/altdatana-react/static/media/product-rightg.442b3038.png",
+    "static/media/slant-bg.png": "/altdatana-react/static/media/slant-bg.c3fdfe01.png",
+    "static/media/temp.png": "/altdatana-react/static/media/temp.f2907374.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.441cc14c.js",
+    "static/js/2.3771cf62.chunk.js",
+    "static/css/main.7ecb3879.chunk.css",
+    "static/js/main.c0eca7b2.chunk.js"
+  ]
+}
